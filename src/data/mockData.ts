@@ -1,7 +1,15 @@
 
 import { Property } from "@/components/PropertyCard";
 import { Agent } from "@/components/AgentCard";
-import { Testimonial } from "@/components/Testimonials";
+
+// Define the Testimonial type here since it's not exported from the component
+export interface Testimonial {
+  id: string;
+  name: string;
+  position: string;
+  content: string;
+  imageUrl: string;
+}
 
 // Mock Properties
 export const properties: Property[] = [

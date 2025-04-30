@@ -22,8 +22,8 @@ export default function Contact() {
     setTimeout(() => {
       setIsSubmitting(false);
       toast({
-        title: "Message sent",
         description: "We'll get back to you shortly.",
+        title: "Message sent"
       });
       // Reset form
       (e.target as HTMLFormElement).reset();

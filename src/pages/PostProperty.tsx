@@ -21,8 +21,8 @@ export default function PostProperty() {
     setTimeout(() => {
       setIsSubmitting(false);
       toast({
-        title: "Property submitted",
         description: "Your property has been submitted for review.",
+        title: "Property submitted"
       });
       // Reset form
       (e.target as HTMLFormElement).reset();

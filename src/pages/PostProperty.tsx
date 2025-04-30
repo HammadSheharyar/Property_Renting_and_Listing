@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -20,9 +19,8 @@ export default function PostProperty() {
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
-      toast({
+      toast("Property submitted", {
         description: "Your property has been submitted for review.",
-        title: "Property submitted"
       });
       // Reset form
       (e.target as HTMLFormElement).reset();

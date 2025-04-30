@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -21,9 +20,8 @@ export default function Contact() {
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
-      toast({
+      toast("Message sent", {
         description: "We'll get back to you shortly.",
-        title: "Message sent"
       });
       // Reset form
       (e.target as HTMLFormElement).reset();

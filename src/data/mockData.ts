@@ -23,7 +23,7 @@ export const properties: Property[] = [
     bedrooms: 2,
     bathrooms: 2,
     area: 1200,
-    imageUrl: "https://source.unsplash.com/random/800x600/?apartment",
+    imageUrl: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     featured: true,
     status: "for-sale"
   },
@@ -37,7 +37,7 @@ export const properties: Property[] = [
     bedrooms: 5,
     bathrooms: 4,
     area: 3800,
-    imageUrl: "https://source.unsplash.com/random/800x600/?villa",
+    imageUrl: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     featured: true,
     status: "for-sale"
   },
@@ -49,7 +49,7 @@ export const properties: Property[] = [
     location: "New York, NY",
     address: "789 Business Ave, New York, NY 10001",
     area: 2500,
-    imageUrl: "https://source.unsplash.com/random/800x600/?office",
+    imageUrl: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     status: "for-rent"
   },
   {
@@ -62,7 +62,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 3,
     area: 2200,
-    imageUrl: "https://source.unsplash.com/random/800x600/?house",
+    imageUrl: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     featured: true,
     status: "for-rent"
   },
@@ -76,7 +76,7 @@ export const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 3.5,
     area: 2800,
-    imageUrl: "https://source.unsplash.com/random/800x600/?penthouse",
+    imageUrl: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     status: "for-sale"
   },
   {
@@ -87,7 +87,7 @@ export const properties: Property[] = [
     location: "Seattle, WA",
     address: "987 Mall Road, Seattle, WA 98101",
     area: 1800,
-    imageUrl: "https://source.unsplash.com/random/800x600/?retail",
+    imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     status: "for-rent"
   }
 ];
@@ -101,7 +101,7 @@ export const agents: Agent[] = [
     bio: "Sarah has over 15 years of experience in luxury real estate. She specializes in high-end properties and has closed over $100 million in sales.",
     email: "sarah.johnson@dreamhouse.com",
     phone: "+1 (555) 123-4567",
-    imageUrl: "https://source.unsplash.com/random/400x400/?woman,professional",
+    imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     listings: 32
   },
   {
@@ -111,7 +111,7 @@ export const agents: Agent[] = [
     bio: "Michael focuses on commercial real estate with expertise in office spaces and retail properties. He has helped numerous businesses find their perfect location.",
     email: "michael.rodriguez@dreamhouse.com",
     phone: "+1 (555) 987-6543",
-    imageUrl: "https://source.unsplash.com/random/400x400/?man,suit",
+    imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     listings: 28
   },
   {
@@ -121,7 +121,7 @@ export const agents: Agent[] = [
     bio: "Emily is known for her personal approach to finding clients their dream homes. She is consistently ranked in the top 1% of residential agents nationwide.",
     email: "emily.chen@dreamhouse.com",
     phone: "+1 (555) 456-7890",
-    imageUrl: "https://source.unsplash.com/random/400x400/?woman,business",
+    imageUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     listings: 45
   },
   {
@@ -131,7 +131,7 @@ export const agents: Agent[] = [
     bio: "Daniel specializes in luxury properties and has extensive knowledge of high-end real estate markets across the country.",
     email: "daniel.wilson@dreamhouse.com",
     phone: "+1 (555) 789-0123",
-    imageUrl: "https://source.unsplash.com/random/400x400/?man,professional",
+    imageUrl: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     listings: 23
   }
 ];
@@ -143,20 +143,20 @@ export const testimonials: Testimonial[] = [
     name: "Robert Thompson",
     position: "Homebuyer",
     content: "Sarah Johnson was amazing throughout our entire home buying process. She understood exactly what we were looking for and found us the perfect home within our budget. Highly recommended!",
-    imageUrl: "https://source.unsplash.com/random/100x100/?man"
+    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "2",
     name: "Jennifer Adams",
     position: "Property Seller",
     content: "We sold our house in just two weeks thanks to Michael's expertise and marketing strategy. The process was smooth, and we got an offer above asking price!",
-    imageUrl: "https://source.unsplash.com/random/100x100/?woman"
+    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "3",
     name: "David Chen",
     position: "Business Owner",
     content: "Emily helped us find the perfect location for our new restaurant. Her knowledge of commercial properties and lease negotiations saved us thousands of dollars.",
-    imageUrl: "https://source.unsplash.com/random/100x100/?businessman"
+    imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   }
 ];

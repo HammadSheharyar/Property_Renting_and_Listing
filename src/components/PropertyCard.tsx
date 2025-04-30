@@ -36,6 +36,11 @@ export function PropertyCard({ property }: PropertyCardProps) {
             src={imageUrl} 
             alt={title} 
             className="h-48 w-full object-cover"
+            loading="lazy"
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = "https://placehold.co/400x250?text=Property+Image";
+            }}
           />
           {featured && (
             <Badge className="absolute top-2 right-2 bg-yellow-500">Featured</Badge>

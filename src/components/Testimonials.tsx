@@ -33,6 +33,11 @@ export function Testimonials({ testimonials }: TestimonialsProps) {
                     src={testimonial.imageUrl} 
                     alt={testimonial.name} 
                     className="rounded-full h-12 w-12 object-cover mr-3"
+                    loading="lazy"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = "https://placehold.co/100x100?text=Profile";
+                    }}
                   />
                   <div>
                     <h4 className="font-medium">{testimonial.name}</h4>

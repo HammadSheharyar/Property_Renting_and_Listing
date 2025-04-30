@@ -27,6 +27,11 @@ export function AgentCard({ agent }: AgentCardProps) {
           src={agent.imageUrl} 
           alt={agent.name} 
           className="w-full h-56 object-cover"
+          loading="lazy"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = "https://placehold.co/400x400?text=Agent+Photo";
+          }}
         />
       </CardHeader>
       <CardContent className="text-center pt-6">

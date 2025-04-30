@@ -1,6 +1,5 @@
 
-// Import from the original sources
-import { useToast } from "@radix-ui/react-toast";
-import { toast } from "sonner";
+// Re-export from our hooks implementation
+import { useToast, toast, type ToastProps, type ToastActionElement } from "@/hooks/use-toast";
 
-export { useToast, toast };
+export { useToast, toast, type ToastProps, type ToastActionElement };

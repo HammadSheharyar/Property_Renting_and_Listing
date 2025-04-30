@@ -1,8 +1,20 @@
 
-// Import directly from the original source components
-import { toast as sonnerToast } from "sonner";
-import { useToast as useToastHook } from "@radix-ui/react-toast";
+// Import directly from sonner for the toast function
+import { toast } from "sonner";
+// Import from our own toast.tsx file which provides the useToast hook
+import { type ToastProps, type ToastActionElement } from "@/components/ui/toast";
 
-// Re-export the hooks and functions with the names the rest of the application expects
-export const useToast = useToastHook;
-export const toast = sonnerToast;
+const useToast = () => {
+  return {
+    toast,
+    // Default implementation similar to shadcn
+    toasts: [] as {
+      id: string;
+      title?: string;
+      description?: string;
+      action?: ToastActionElement;
+    }[],
+  };
+};
+
+export { useToast, toast, type ToastProps, type ToastActionElement };
